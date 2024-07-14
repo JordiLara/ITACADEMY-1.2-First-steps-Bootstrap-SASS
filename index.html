@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Jordi Lara"> 
+  <title>Maquetacio-Bootstrap</title>
+  <!-- bootstrap -->
+  <script src="node_modules/bootstrap/dist/css/bootstrap.min.css."></script>
+  <!-- custom css -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- navBar -->
+  <section id="navbar">
+    <nav class="navbar navbar-expand-md navbar-light bg-transparent">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="Images/logo-bookmark.svg" alt="Bookmark Logo" loading="lazy"/>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler">
+          <img src="Images/icon-hamburger.svg" class="icon-logo" alt="menu icon">
+        </button>
+        <div class="collapse navbar-collapse" id="navbarToggler">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" id="nav-features" href="#">FEATURES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="nav-pricing" href="#">PRICING</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="nav-contact" href="#">CONTACT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" btn btn-custom id="login" href="#">LOGIN</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </section>
+<!-- Hero -->
+    
+<section id="hero-section">
+  <div class="container" id="container1">
+    <div class="row">
+      <div class="col" id="column1">
+        <div class="info1">
+          <div>
+            <h1>A Simple Bookmark Manager</h1>
+          </div>
+
+          <div>
+            <p>A clean and simple interface to organize your favorite websites. Open a new browser tab and see your sites load instantly. Try it for free.</p>     
+          </div>
+
+          <div class="buttons">
+            <div class="button">
+              <button button type="button" class="btn btn-primary blue-button" id="getit-chrome">Get it on Chrome</button>
+            </div>
+          </div>
+
+          <div class="button">
+            <button button type="button" class="btn btn-primary" id="getit-firefox">Get it on Firefox</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+        <div class="col" id="column2">
+          <div class="imagen-forma">
+            <div class="shape1-container">
+              <div class="shape1"></div>
+            </div>
+
+            <div class="illustration-hero">
+              <img src="Images/illustration-hero.svg" loading="lazy" id="illustration-hero" />
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+</section>
+
+    <!-- Bootstrap -->
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  
+</body>
+</html>
