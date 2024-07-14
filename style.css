@@ -11964,4 +11964,48 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+body {
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.navbar {
+  margin-bottom: 30px;
+}
+
+.row div {
+  border: 3px solid silver;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-collapse {
+  display: flex;
+  justify-content: center;
+  padding-left: 150px;
+}
+
+.icon-logo {
+  border: none;
+}
+
+.nav-item {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: grey;
+}
+
+.nav-link {
+  color: gray;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-custom {
+  background-color: #FA5959;
+  width: 110px;
+  color: white;
 }/*# sourceMappingURL=style.css.map */
