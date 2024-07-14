@@ -12008,4 +12008,24 @@ body {
   background-color: #FA5959;
   width: 110px;
   color: white;
+}
+
+.row div {
+  border: none;
+}
+
+@media (max-width: 990px) {
+  #container1 {
+    display: flex;
+    flex-direction: column;
+  }
+  #column1 {
+    order: 2;
+  }
+  #column2 {
+    order: 1;
+  }
+  .info1 {
+    text-align: center;
+  }
 }/*# sourceMappingURL=style.css.map */
