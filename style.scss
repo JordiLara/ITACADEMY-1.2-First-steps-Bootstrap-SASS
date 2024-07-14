@@ -77,3 +77,51 @@ body {
     }
 }
 
+// info1
+
+.info1 {
+    display: grid;
+}
+
+h1 {
+    font-size: calc(1.2rem + 1.5vw);
+    font-weight: bold;
+    color: #2f2f5d;
+}
+
+p {
+    color: rgb(150, 150, 150);
+}
+
+// buttons
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.button {
+    margin: 5px;
+}
+
+.btn-primary {
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.blue-button {
+    font-weight: bold;
+    background-color: $main-color;
+    color: white;
+    border: 0 solid lightgrey;
+}
+
+#getit-firefox {
+    font-weight: bold;
+    background-color: rgb(246, 246, 246);
+    color: rgb(79, 79, 79);
+    border: 0 solid lightgrey;
+    box-shadow: 2px 2px 5px rgb(175, 175, 175);
+}
